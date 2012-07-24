@@ -1,5 +1,7 @@
 #!/bin/sh
  
+# copied from http://serom.no-ip.org/index.php/Backup_du_SeRoM_Wiki#On_the_remote_host
+
  BKP_DIR="/home/backup/mediawiki"
  
  /usr/sbin/logrotate -f $BKP_DIR/bkprotate.conf
